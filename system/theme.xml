@@ -1,0 +1,39 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../workbench.xml</include>
+
+	<view name="system">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+		<image name="console" extra="true">
+			<path>./console.png</path>
+			<pos>0.678 0.855</pos>
+			<maxSize>0.289 0.203</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+	</view>
+
+	<view name="basic, detailed">
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+	</view>
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+		
+	</view>
+	
+</theme>
